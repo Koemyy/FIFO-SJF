@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Fifo SJF</title>
+</head>
+
+<body>
+    <div>
+
+        <div>
+            <h1>Processo 1</h1>
+            <label for="ucp1">UCP 1</label>
+            <input id="ucp1" type="text">
+            <label for="criacao1">Criação 1</label>
+            <input id="criacao1" type="text">
+       
+            <h1>Processo 2</h1>
+            <label for="ucp2">UCP 2</label>
+            <input id="ucp2" type="text">
+            <label for="criacao2">Criação 2</label>
+            <input id="criacao2" type="text">
+        
+            <h1>Processo 3</h1>
+            <label for="ucp3">UCP 3</label>
+            <input id="ucp3" type="text">
+            <label for="criacao3">Criação 3</label>
+            <input id="criacao3" type="text">
+        
+            <h1>Processo 4</h1>
+            <label for="ucp4">UCP 4</label>
+            <input id="ucp4" type="text">
+            <label for="criacao4">Criação 4</label>
+            <input id="criacao4" type="text">
+       
+            <h1>Processo 5</h1>
+            <label for="ucp5">UCP 5</label>
+            <input id="ucp5" type="text">
+            <label for="criacao5">Criação 5</label>
+            <input id="criacao5" type="text">
+        </div>
+        <div class="centralizar">
+            <label for="fifo">FIFO</label>
+            <input type="radio" id="fifo" name="btnRadio" checked>
+            <label for="sjf">SJF</label>
+            <input type="radio" id="sjf" name="btnRadio">
+            <div class="mediasProcessos">
+                <p id="resultado"></p>
+                <p id="tme"></p>
+                <p id="tmp"></p>
+            </div>
+            <div class="centralizar">
+                <button class="btn" onclick="main()">Calcular</button>
+            </div>
+        </div>
+</body>
+
+</html>

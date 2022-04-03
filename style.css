@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    background-color: #F4FCD9;
+}
+
+h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #BB9981;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+    color: #534340;
+    text-align: center;
+}
+
+input{
+    border-width: 3px;
+    border-style: solid;
+    width:50px
+}
+
+p{
+    padding-top: 10px;
+}
+.mediasProcessos{
+    font-size: 18px;
+    color: #534340;
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.btn{
+    background-color: #C5D8A4;
+    border: none;
+    color: #534340;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
